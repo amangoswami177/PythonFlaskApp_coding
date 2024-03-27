@@ -8,7 +8,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'build jenkins pipeline'
+        return 'build jenkins pipeline2'
 
     return app
 if __name__ == '__main__':
