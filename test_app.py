@@ -15,5 +15,5 @@ def client(app):
 def test_home(client):
     response = client.get('/')
     assert response.status_code == 200
-    expected_text = 'build jenkins webhook'1234
+    expected_text = 'build jenkins webhook'
     assert expected_text.encode() in response.data
