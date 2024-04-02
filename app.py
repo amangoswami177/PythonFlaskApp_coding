@@ -8,7 +8,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'Not '
+        return 'wow ci-cd pipeline done and class 7'
 
     return app
 if __name__ == '__main__':
